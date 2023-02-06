@@ -5,11 +5,12 @@
     box-sizing: border-box;
     max-width: 1400px;
 
-    
-
 }
 
 
+/* <!-- start of header --> */
+
+/* .container is default set */
 
 .container{
 
@@ -18,6 +19,7 @@
     
 }
 
+/* <!-- container headbar --> */
 
 .flex_container{
 
@@ -27,6 +29,9 @@
     flex-direction: column;
 
 }
+
+/* <!-- content headbar --> */
+
 #headbar{
 
     height: 3.5rem;
@@ -81,7 +86,7 @@
 }
 
 
-
+/* <!-- container box header --> */
 
 .header_box{
 
@@ -94,6 +99,10 @@
 
 }
 
+/* <!-- end of header --> */
+
+
+/* <!-- start of main --> */
 
 .flex_container_structure_1{
 
@@ -105,6 +114,9 @@
 
 }
 
+/* <!-- main container 1--> */
+
+/* <!-- first container flex structure --> */
 
 .flex_structure_1{
 
@@ -120,6 +132,8 @@
     width: 20rem;
 }
 
+/* <!-- main container 3--> */
+
 .flex_container_structure_2{
 
     height: 465px;
@@ -130,6 +144,8 @@
     background-color: lightgrey;
 
 }
+
+/* <!-- container flex structure 3 --> */
 
 .flex_structure_3{
 
@@ -145,6 +161,7 @@
     width: 20rem;
 }
 
+/* <!-- main container 4--> */
 
 .container_special{
 
@@ -152,6 +169,8 @@
     border: 1px solid black;
     
 }
+
+/* <!-- container flex structure 4 --> */
 
 .flex_container_structure_3{
 
@@ -172,6 +191,12 @@
     border: 1px dashed black;
 }
 
+/* <!-- end of main --> */
+
+/* start of footer */
+
+/* <!-- footer container --> */
+
 .container_special_2{
 
     
@@ -179,6 +204,8 @@
     background-color: rgb(33, 32, 32);
 
 }
+
+/* <!-- footer container structure --> */
 
 .flex_container_structure_4{
 
@@ -221,6 +248,8 @@
 
 }
 
+/* <!-- footer downbar --> */
+
 .downbar{
 
     height: 3.5rem;
@@ -231,6 +260,8 @@
     align-items: center;
 
 }
+
+/* <!-- downbar structure --> */
 
 .downbar_content{
 
@@ -250,6 +281,8 @@
     padding: 10px;
 
 }
+
+/* <!-- end of footer --> */
 
 
 
