@@ -12,7 +12,7 @@
 
 .flex_container{
 
-    height: 600px;
+    height: 465px;
     border: 2px solid black;
 
 }
@@ -32,15 +32,52 @@
     background-color: brown;
     margin: 0.5rem 20%;
     border: 1px dashed black;
+    display: flex;
+
 
 }
 
+
+.content_bar_1,.content_bar_2,.content_bar_3{
+
+    height: 100%;
+    
+    background-color: rgb(118, 165, 42);
+    border: 1px dashed black;
+
+    
+    
+
+}
+
+.content_bar_1{
+
+    width: 20%;
+
+}
+
+.content_bar_2{
+
+    width: 60%; 
+    text-align: center;
+
+}
+
+
+.content_bar_3{
+
+    width: 20%;
+    text-align: right;
+}
+
+
+
 .header_box{
 
-    height: 450px;
+    height: 350px;
     width: 600px;
     background-color: brown;
-    margin: 3rem 30%;
+    margin: 2% 30%;
     border: 1px dashed black;
     
 
