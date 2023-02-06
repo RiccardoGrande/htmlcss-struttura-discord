@@ -82,3 +82,31 @@
     
 
 }
+
+
+.flex_container_structure{
+
+    height: 465px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.flex_structure_1{
+
+    height: 80%;
+    background-color: blue;
+    width: 35rem;
+}
+
+.flex_structure_2{
+
+    height: 80%;
+    background-color: rgb(0, 255, 94);
+    width: 20rem;
+}
+
