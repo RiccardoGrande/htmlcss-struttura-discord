@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 1400px;
 
 }
 
@@ -16,6 +15,7 @@
 
     height: 465px;
     border: 1px solid black;
+    max-width: 1400px;
     
 }
 
@@ -24,13 +24,18 @@
 .flex_container{
 
     height: 465px;
-    
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 
 }
 
 /* <!-- content headbar --> */
+
+
+#headbar_container{
+
+    flex-direction: column;
+}
 
 #headbar{
 
@@ -53,25 +58,21 @@
 }
 
 
-.content_bar_1,.content_bar_2,.content_bar_3{
+.logo,.link,.login{
 
     height: 100%;
-    
     background-color: rgb(118, 165, 42);
     border: 1px dashed black;
 
-    
-    
-
 }
 
-.content_bar_1{
+.logo{
 
     width: 20%;
 
 }
 
-.content_bar_2{
+.link{
 
     width: 60%; 
     text-align: center;
@@ -79,7 +80,7 @@
 }
 
 
-.content_bar_3{
+.login{
 
     width: 20%;
     text-align: right;
@@ -104,10 +105,9 @@
 
 /* <!-- start of main --> */
 
-.flex_container_structure_1{
+.flex_container,#place_invite,#fandom{
 
-    height: 465px;
-    display: flex;
+
     justify-content: center;
     align-items: center;
 
@@ -118,14 +118,14 @@
 
 /* <!-- first container flex structure --> */
 
-.flex_structure_1{
+.place_invite_img,#fandom_img{
 
     height: 80%;
     background-color: blue;
     width: 35rem;
 }
 
-.flex_structure_2{
+.place_invite_text,#fandom_text{
 
     height: 80%;
     background-color: rgb(0, 255, 94);
@@ -134,10 +134,9 @@
 
 /* <!-- main container 3--> */
 
-.flex_container_structure_2{
+#voice_channel{
 
-    height: 465px;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
@@ -147,14 +146,14 @@
 
 /* <!-- container flex structure 3 --> */
 
-.flex_structure_3{
+.voice_channel_text{
 
     height: 80%;
     background-color: blue;
     width: 35rem;
 }
 
-.flex_structure_4{
+.voice_channel_img{
 
     height: 80%;
     background-color: rgb(0, 255, 94);
@@ -236,7 +235,7 @@
 
 }
 
-.container_special_3{
+.container_downbar{
 
     
     height: 85px;
@@ -273,7 +272,7 @@
 }
 
 
-.content_bar_4{
+.downbar_icon{
 
     height: 100%;
     background-color: rgb(118, 165, 42);
